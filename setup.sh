@@ -3,10 +3,10 @@
 
 # Setup Alacritty
 # ================================================================================
-[[ ! -d "$HOME/.config/alacritty" ]] && mkdir ~/.config/alacritty
+ALACRITTY_PATH="$HOME/.config/alacritty"
 
-[[ -L "$HOME/.config/alacritty/alacritty.yml" ]] && unlink $HOME/.config/alacritty/alacritty.yml
-
-ln -s "$(pwd)/alacritty/alacritty.yml" ~/.config/alacritty/alacritty.yml
+[[ ! -d "$ALACRITTY_PATH" ]] && mkdir "$ALACRITTY_PATH"
+[[ -L "$ALACRITTY_PATH/alacritty.yml" ]] && unlink "$ALACRITTY_PATH/alacritty.yml"
+ln -s "$(pwd)/alacritty/alacritty.yml" "$ALACRITTY_PATH/alacritty.yml"
 # ================================================================================
 
