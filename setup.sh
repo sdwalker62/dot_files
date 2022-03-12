@@ -3,13 +3,9 @@
 
 # Setup Alacritty
 # ================================================================================
-if [ ! -d "$HOME/.config/alacritty" ]; then
-    mkdir ~/.config/alacritty
-fi
+[[ ! -d "$HOME/.config/alacritty" ]] && mkdir ~/.config/alacritty
 
-if [ -L "$HOME/.config/alacritty/alacritty.yml" ]; then
-    unlink $HOME/.config/alacritty/alacritty.yml
-fi
+[[ -L "$HOME/.config/alacritty/alacritty.yml" ]] && unlink $HOME/.config/alacritty/alacritty.yml
 
 ln -s "$(pwd)/alacritty/alacritty.yml" ~/.config/alacritty/alacritty.yml
 # ================================================================================
