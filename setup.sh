@@ -1,12 +1,16 @@
 #!/bin/bash
 
+# Color variables
+green='\033[0;32m'
+clear='\033[0m'
 
 # Setup Alacritty
 # ================================================================================
-ALACRITTY_PATH="$HOME/.config/alacritty"
+echo -n "Alacritty"
+alacritty_path="$HOME/.config/alacritty"
 
-[[ ! -d "$ALACRITTY_PATH" ]] && mkdir "$ALACRITTY_PATH"
-[[ -L "$ALACRITTY_PATH/alacritty.yml" ]] && unlink "$ALACRITTY_PATH/alacritty.yml"
-ln -s "$(pwd)/alacritty/alacritty.yml" "$ALACRITTY_PATH/alacritty.yml"
+[[ ! -d "$alacritty_path" ]] && mkdir "$alacritty_path"
+[[ -L "$alacritty_path/alacritty.yml" ]] && unlink "$alacritty_path/alacritty.yml"
+ln -s "$(pwd)/alacritty/alacritty.yml" "$alacritty_path/alacritty.yml"
+echo -e "${green}\u2714${clear}"
 # ================================================================================
-
