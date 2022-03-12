@@ -5,8 +5,8 @@ green='\033[0;32m'
 clear='\033[0m'
 
 # Setup Alacritty
-# ================================================================================
 echo -n "Alacritty"
+# ================================================================================
 alacritty_path="$HOME/.config/alacritty"
 
 [[ ! -d "$alacritty_path" ]] && mkdir "$alacritty_path"
