@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "origin"]
+	url = https://github.com/tryone144/picom.git
+	fetch = +refs/*:refs/*
+	mirror = true
