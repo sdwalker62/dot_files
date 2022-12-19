@@ -22,3 +22,7 @@ pacman -Syu \
   rustup \
   python \
   neovim
+```
+
+# Fonts
+The terminal and neovim editor require a nerfont from https://www.nerdfonts.com/
