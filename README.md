@@ -8,3 +8,17 @@ To use:
   2. run `./setup.sh`
 
 The script `setup.sh` will create soft symbolic links from the git repository to the *.config* folder in your *$HOME* directory (or to another folder if the application does not use *$HOME/.config* for to store configuration files)
+
+# Pacman
+
+Packages required: 
+
+```
+pacman -Syu \
+  git \
+  make \
+  nodejs \
+  npm \
+  rustup \
+  python \
+  neovim
