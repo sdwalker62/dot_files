@@ -28,4 +28,4 @@ pacman -Syu \
 ```
 
 # Fonts
-The terminal and neovim editor require a nerfont from https://www.nerdfonts.com/
+The terminal and neovim editor require a nerfont from https://aur.archlinux.org/packages/nerd-fonts-complete
