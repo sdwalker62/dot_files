@@ -21,7 +21,10 @@ pacman -Syu \
   npm \
   rustup \
   python \
-  neovim
+  neovim \
+  xorg-mkfontscale \
+  xorg-bdftopcf \
+  xorg-font-util
 ```
 
 # Fonts
