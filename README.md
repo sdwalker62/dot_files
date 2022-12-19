@@ -24,7 +24,25 @@ pacman -Syu \
   neovim \
   xorg-mkfontscale \
   xorg-bdftopcf \
-  xorg-font-util
+  xorg-font-util \
+  dmenu \
+  neofetch \
+  gcc \
+  xorg-xsetroot \
+  freetype2 \
+  libx11 \
+  lixft \
+  libxinerama \
+  base-devel \
+  fontconfig \
+  imlib2 \
+  libexif \
+  xorg-xinit \
+  fish \
+  libnotify \
+  libxss \
+  lsof \
+  xdg-utils
 ```
 
 # Fonts
