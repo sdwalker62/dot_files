@@ -47,3 +47,7 @@ pacman -Syu \
 
 # Fonts
 The terminal and neovim editor require a nerfont from https://aur.archlinux.org/packages/nerd-fonts-complete
+
+# LunarVim
+Add Lunar Vim to your path:
+`export PATH="~/.local/bin:$PATH"`
